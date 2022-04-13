@@ -23,3 +23,9 @@ test("30 doors", () => {
   const expectedResult = [1, 4, 9, 16, 25];
   expect(result).toStrictEqual(expectedResult);
 });
+
+test("40 doors", () => {
+  const result = getOpenDoors(40);
+  const expectedResult = [1, 4, 9, 16, 25, 36];
+  expect(result).toStrictEqual(expectedResult);
+});
